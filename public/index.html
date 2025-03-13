@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Registro</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 50px; }
+        input { display: block; margin: 10px auto; padding: 8px; }
+        button { padding: 10px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h2>Registro</h2>
+    <input type="text" id="register-username" placeholder="Usuário">
+    <input type="password" id="register-password" placeholder="Senha">
+    <button onclick="register()">Registrar</button>
+
+    <h2>Login</h2>
+    <input type="text" id="login-username" placeholder="Usuário">
+    <input type="password" id="login-password" placeholder="Senha">
+    <button onclick="login()">Entrar</button>
+
+    <h2>Área Protegida</h2>
+    <button onclick="getProtected()">Acessar Conteúdo</button>
+    <p id="protected-content"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
