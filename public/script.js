@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://auth-system-production-b84d.up.railway.app/';
 
 async function register() {
     const username = document.getElementById("register-username").value;
